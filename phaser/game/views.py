@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def show(request): 
     return render(request, 'game.html')
+
+def test(request): 
+    return render(request, 'test.html')
